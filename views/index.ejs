@@ -19,7 +19,7 @@
             <th>Verified</th>
         </tr>
     <% links.forEach(function(link,index){ %>
-    <% if(isNaN(link.url.slice(-1))){ %>
+    <% if(!isNaN(link.url.slice(-1))){ %>
         
         <tr class="yellow">
         <td><%= index+1 %></td>
