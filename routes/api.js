@@ -13,7 +13,7 @@ function initRoutes(app){
                 //body = response.body;
                 let links = [];
                 
-                for(let link=0; link<20; link++){
+                for(let link=0; link<25; link++){
                     console.log(body[link].html_url,link+1);
                     let detail ={};
                     detail["name"] = body[link].commit.author.name;
